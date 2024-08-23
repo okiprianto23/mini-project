@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql_xyz
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'        # Membatasi penggunaan CPU hingga 0.5 core
+          memory: 512M       # Membatasi penggunaan memori hingga 512MB
+    networks:
+      - my-network
+
+  redis:
+    image: redis:6
+    container_name: redis_xyz
+    ports:
+      - "6379:6379"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'        # Membatasi penggunaan CPU hingga 0.5 core
+          memory: 256M       # Membatasi penggunaan memori hingga 256MB
+
+volumes:
+  mysql-data:
+
+networks:
+  my-network:

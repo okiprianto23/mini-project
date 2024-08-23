@@ -1,0 +1,16 @@
+package regex
+
+const EMAIL_REGEX = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$"
+const PHONE_NUMBER_WITH_COUNTRY_CODE = "[+][0-9]+[-][1-9][0-9]{9,12}$"
+const COUNTRY_CODE = "^[+][0-9]{1,3}$"
+const NAME_STANDARD = "^[A-Z][a-z]+(([ ][A-Z][a-z])?[a-z]*)*$"
+const USERNAME = "^[a-z][a-z0-9_.]+$"
+const LOWERCASE = "^[a-z]+$"
+const UPERCASE = "^[A-Z]+$"
+const LOWERCASE_AND_NUMBER = "^[a-z][a-z0-9]+$"
+const LONG_NUMERIC = "^[0-9]+$"
+const ALPHANUMERIC = "^[A-Za-z0-9]+$"
+const NIK = "^[0-9]{16,20}$"
+const PROFILE_NAME = "^[A-Z0-9](?:|(?:[a-z0-9]+|(?:[a-z0-9]|[a-z0-9])(?:([_-]|)[a-z0-9])+)|[ ]([A-Z0-9](?:|(?:[a-z0-9]+|(?:[a-z0-9]|[a-z0-9])(?:([_-]|)[a-z0-9])+))+)+)+$"
+const DIRECTORY_NAME = "^(([a-z0-9](?:([_]|)[a-z0-9])+))$"
+const TEXT_ONLY = "^[A-Za-z ]+$"

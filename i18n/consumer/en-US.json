@@ -1,0 +1,8 @@
+{
+  "SUCCESS_INSERT_MESSAGE": "Consumer successfully inserted",
+  "SUCCESS_VIEW_MESSAGE": "Successfully get consumer",
+  "SUCCESS_INITIATE_LIST_MESSAGE": "Successfully get initiate list consumer",
+  "SUCCESS_LIST_MESSAGE": "Successfully get list of consumer",
+  "SUCCESS_DELETE_MESSAGE": "Consumer successfully deleted",
+  "SUCCESS_UPDATE_MESSAGE": "Consumer successfully updated"
+}

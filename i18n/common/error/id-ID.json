@@ -1,0 +1,32 @@
+{
+  "E-1-CMD-AUT-001": "Akses client tidak diijinkan",
+  "E-1-CMD-AUT-002": "Masa aktif token sudah habis",
+  "E-4-CMD-DTO-001": "Data {{.FieldName}} tidak boleh kosong",
+  "E-4-CMD-DTO-002": "Format data {{.FieldName}} tidak sesuai",
+  "E-4-CMD-DTO-003": "{{.FieldName}} harus mengikuti format : {{.RuleName}} {{.Other}}",
+  "E-4-CMD-DTO-004": "Data dengan {{.FieldName}} ini tidak diketahui",
+  "E-4-CMD-DTO-006": "{{.FieldName}} termasuk kata kata yang dilarang",
+  "E-4-CMD-DTO-007": "{{.FieldName}} ini tidak boleh diduplikasi",
+  "E-4-CMD-SRV-001": "Belum Diimplementasi",
+  "E-4-CMD-ADT-001": "Sistem Audit dalam keadaan mati",
+  "E-4-CMD-BDY-003": "Signature anda salah",
+  "E-5-CMD-SRV-001": "Error Internal Server ditemukan, Mohon contact customer service kami",
+  "E-4-CMD-BDY-002": "Format JSON tidak sesuai",
+
+  "E-3-GL-SRV-001": "Mohon maaf, anda tidak memiliki akses untuk melakukan aksi ini",
+  "E-4-GL-DTO-001": "{{.FieldName}} tidak boleh mengandung karakter spesial",
+  "E-4-GL-DTO-002": "{{.FieldName}} hanya boleh diisi dengan {{.Value}}",
+  "E-4-GL-DTO-003": "{{.FieldName}} tidak boleh lebih dari {{.Value}}",
+  "E-4-GL-SRV-001": "{{.FieldName}} Invalid",
+  "E-4-GL-SRV-002": "Data {{.FieldName}} tidak dapat diubah",
+  "E-4-GL-SRV-003": "Data {{.FieldName}} sudah diupdate oleh orang lain. Data dikunci.",
+  "E-4-GL-SRV-004": "Data dengan {{.FieldName}} ini sudah digunakan, aksi tidak dapat dilakukan",
+  "E-4-GL-SRV-005": "Fitur ini hanya berlaku untuk official principal ",
+  "E-4-GL-SRV-006": "Anda tidak dapat akses untuk memilih {{.FieldName}} ini",
+  "E-4-GL-SRV-007": "Data {{.FieldName}} tidak dapat di hapus",
+  "E-4-GL-SRV-008": "Format JSON tidak sesuai",
+  "E-5-GL-DBS-001": "Kesalahan Server Internal, Mohon menghubungi customer service kami",
+  "E-5-GL-SRV-001": "Error tidak diketahui, Mohon menghubungi customer service kami",
+
+  "E-4-GL-SRV-101": "Maaf data dengan company profile id ini sudah dihapus, silahkan melakukan invitation ulang."
+}

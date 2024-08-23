@@ -1,0 +1,8 @@
+{
+  "SUCCESS_INSERT_MESSAGE": "Konsumen berhasil ditambahkan",
+  "SUCCESS_VIEW_MESSAGE": "Pengambilan data konsumen berhasil dilakukan",
+  "SUCCESS_INITIATE_LIST_MESSAGE": "Pengambilan data inisiasi daftar konsumen berhasil dilakukan",
+  "SUCCESS_LIST_MESSAGE": "Pengambilan daftar konsumen berhasil dilakukan",
+  "SUCCESS_DELETE_MESSAGE": "Konsumen berhasil dihapus",
+  "SUCCESS_UPDATE_MESSAGE": "Konsumen berhasil diubah"
+}

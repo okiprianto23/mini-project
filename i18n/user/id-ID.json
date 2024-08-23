@@ -1,0 +1,8 @@
+{
+  "SUCCESS_INSERT_MESSAGE": "Pengguna berhasil ditambahkan",
+  "SUCCESS_VIEW_MESSAGE": "Pengambilan data Pengguna berhasil dilakukan",
+  "SUCCESS_INITIATE_LIST_MESSAGE": "Pengambilan data inisiasi daftar Pengguna berhasil dilakukan",
+  "SUCCESS_LIST_MESSAGE": "Pengambilan daftar Pengguna berhasil dilakukan",
+  "SUCCESS_DELETE_MESSAGE": "Pengguna berhasil dihapus",
+  "SUCCESS_UPDATE_MESSAGE": "Pengguna berhasil diubah"
+}

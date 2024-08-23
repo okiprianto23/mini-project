@@ -1,0 +1,32 @@
+{
+  "E-1-CMD-AUT-001": "Unauthorized Client",
+  "E-1-CMD-AUT-002": "Expired Token",
+  "E-4-CMD-DTO-001": "Field {{.FieldName}} Cannot Empty",
+  "E-4-CMD-DTO-002": "Invalid Format in Field {{.FieldName}}",
+  "E-4-CMD-DTO-003": "{{.FieldName}} must following rule : {{.RuleName}} {{.Other}}",
+  "E-4-CMD-DTO-004": "Unknown data with this {{.FieldName}}",
+  "E-4-CMD-DTO-006": "{{.FieldName}} includes prohibited words",
+  "E-4-CMD-DTO-007": "The {{.FieldName}} cannot be duplicated",
+  "E-4-CMD-SRV-001": "Unimplemented",
+  "E-4-CMD-ADT-001": "Inactive Audit Server",
+  "E-4-CMD-BDY-003": "Invalid Signature",
+  "E-5-CMD-SRV-001": "Internal Server Error, Please contact our customer service",
+  "E-4-CMD-BDY-002": "Invalid JSON format",
+
+  "E-3-GL-SRV-001": "You are not allowed to do this action",
+  "E-4-GL-DTO-001": "{{.FieldName}} cannot contain special characters",
+  "E-4-GL-DTO-002": "{{.FieldName}} can only be filled with {{.Value}}",
+  "E-4-GL-DTO-003": "{{.FieldName}} can't be more than {{.Value}}",
+  "E-4-GL-SRV-001": "{{.FieldName}} Invalid",
+  "E-4-GL-SRV-002": "Data {{.FieldName}} can't be changed",
+  "E-4-GL-SRV-003": "{{.FieldName}} has updated by other. Data locked.",
+  "E-4-GL-SRV-004": "Data with this {{.FieldName}} is already used by other, cant process this action",
+  "E-4-GL-SRV-005": "This Feature Only Available For Official Principal",
+  "E-4-GL-SRV-006": "You cannot access to select this {{.FieldName}}",
+  "E-4-GL-SRV-007": "Data {{.FieldName}} can't be deleted",
+  "E-4-GL-SRV-008": "Invalid JSON format",
+  "E-5-GL-DBS-001": "Internal Server Error, Please contact our customer service",
+  "E-5-GL-SRV-001": "Unknown Error, Please contact our customer service",
+
+  "E-4-GL-SRV-101": "Sorry, the data with this company profile id has been deleted, please re-invite."
+}
